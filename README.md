@@ -1,6 +1,6 @@
 # SudaHate – Sudanese Hate Speech and Abusive Dataset
 
-## 📌 Overview
+## Overview
 
 **SudaHate** is The first Sudanese Arabic Hate Speech and Abusive Language Dataset designed to support research on toxicity detection in Sudanese dialect Arabic.
 
@@ -81,7 +81,7 @@ Instances that:
 2. Target a specific individual or group,
 3. Demean or dehumanize the target based on identity (e.g., ethnicity, tribe, religion, gender, skin color, political affiliation, or belief).
 
-Annotators were provided with contextual examples of Sudanese dialect expressions commonly used in toxic discourse (e.g., “______”, “______”).
+Annotators were provided with contextual examples of Sudanese dialect expressions commonly used in toxic discourse.
 
 ---
 
@@ -93,15 +93,6 @@ Annotation agreement was evaluated using:
 - Cohen’s Kappa (K): best value between annotator 1 & annotator 3 =  0.973
 - Fleiss’ Kappa: global reliability among the three annotators = 0.921
 
----
-
-## 🧪 Baseline Experiments
-### Multi-Class Classification (Normal / Abusive / Hate)
-
-- Model: ______  
-- Macro-F1: ______  
-- Precision: ______  
-- Recall: ______  
 
 ---
 
@@ -113,23 +104,4 @@ Annotation agreement was evaluated using:
 - Intended strictly for research purposes.
 - Misuse for harassment, profiling, or discrimination is strongly discouraged.
 
----
 
-## 📎 Citation
-
-If you use SudaHate, please cite:
-
-```bibtex
-@article{SudaHate2025,
-  title={SudaHate: A Sudanese Arabic Hate Speech Dataset},
-  author={______},
-  journal={______},
-  year={2025}
-}
-```
-
----
-
-## 🔖 Version
-
-This release (v1.0) corresponds to the experiments reported in the associated publication.
